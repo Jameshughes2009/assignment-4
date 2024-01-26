@@ -1,2 +1,2 @@
-## Assignment 4 Quiz Game 
-# By James Hughes
+# Assignment 4 Quiz Game 
+## By James Hughes
