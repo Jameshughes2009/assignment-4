@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(155, 0, 0);
+    background-color: rgb(255, 248, 248);
     padding-top: 0px;
     padding: 400px;
     width: 100%;
@@ -28,6 +28,7 @@ main{
     width: 90%;
     max-width: 600px;
     margin: 10px auto 0;
+    /* Marign will add to the difference beetween main and body */
     border-radius: 10px;
     padding: 10px; 
     /* Padding adds the black outline */
