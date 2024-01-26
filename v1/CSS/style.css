@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(239, 226, 226);
+    background-color: rgb(155, 0, 0);
     padding-top: 0px;
     padding: 400px;
     width: 100%;
@@ -36,12 +36,12 @@ section {
     
 }
 .quiz-questions{
-    background-color: hsl(75, 61%, 28%);
+    background-color: hsl(0, 0%, 35%);
     border-radius: 5px;
     border-width: 1px;
     /* box-shadow: rgba(17, 0, 0, 0.15) 0px 2px 8px 0px; */
     font-size: 12px;
     margin: 0 auto;
     max-width: 900px;
-    padding: 40px 40px;
+    /* padding: 40px 40px; */
 }
