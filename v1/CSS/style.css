@@ -2,9 +2,50 @@
     box-sizing: border-box;
 }
 
+head{
+    top: auto;
+}
 body{
     font-family: Arial,;
     margin: 0%;
     display: flex;
     background-color: aquamarine;
+    text-align: center;
+}
+
+header{
+    background-color: brown;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+main{
+    background-color: brown;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+section {
+    background-color: brown;
+    flex: 0 auto;
+    
+}
+h2{
+    
+}
+.quiz-questions{
+    background-color: hsl(0, 9%, 39%);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
 }
