@@ -51,6 +51,8 @@ section h1{
 }
 section h2 {
     font-size: 20px;
+    color: brown;
+    /* adding on the second line of the box */
 }
 /* .quiz-questions{
     background-color: hsl(0, 0%, 35%);
