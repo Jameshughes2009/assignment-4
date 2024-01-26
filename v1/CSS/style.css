@@ -29,22 +29,31 @@ main{
     max-width: 600px;
     margin: 10px auto 0;
     border-radius: 10px;
-    padding: 60px; 
+    padding: 10px; 
     /* Padding adds the black outline */
 }
 section {
     background-color: rgb(18, 33, 177);
+    font-size: 15px;
     /* Add font-size function */
     
 }
-.quiz-questions{
+section h1{
+    font-size: 30px;
+}
+/* .quiz-questions{
     background-color: hsl(0, 0%, 35%);
     border-radius: 5px;
-    border-width: 1px;
+    border-width: 1px; */
     /* box-shadow: rgba(17, 0, 0, 0.15) 0px 2px 8px 0px; */
-    font-size: 12px;
+    /* font-size: 12px;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 900px; */
     /* padding: 40px 40px; */
     /* Creates a box in the middle of question1 */
-}
+/* } */
+/* .quiz-questions h1 {
+    font-size: 300px;
+    color: brown;
+} */ 
+/* all of this info did not impact the screen!!!!! */
