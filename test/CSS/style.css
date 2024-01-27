@@ -8,12 +8,12 @@ head{
 body{
     font-family: Arial,;
     margin: 0%;
-    background-color: aquamarine;
+    background-color: white;
     text-align: center;
 }
 
 header{
-    background-color: rgb(255, 248, 248);
+    background-color: white;
     font-size: 30px;
     /* padding-top: 600px; */
     /* padding: 400px; */
@@ -26,7 +26,7 @@ header{
     text-align: center;
 }
 main{
-    background-color: rgb(14, 13, 13);
+    background-color: black;
     width: 90%;
     max-width: 600px;
     margin: 10px auto 0;
@@ -39,9 +39,9 @@ main{
 }
 section {
     background-color: rgb(18, 33, 177);
-    font-size: 15px;
+    font-size: 10px;
     /* Add font-size function */
-    color: rgb(154, 78, 23);
+    color: pink;
     /* Text Color */
     
 }
@@ -55,7 +55,7 @@ section h1{
 }
 section h2 {
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: red;
     /* adding on the second line of the box */
 }
 /* .quiz-questions{
@@ -75,8 +75,8 @@ section h2 {
 } */ 
 /* all of this info did not impact the screen!!!!! */
 .btn {
-    background-color: blueviolet;
-    color: rgb(99, 0, 0);
+    background-color: rgb(246, 244, 247);
+    color: black;
     font-size: 20px;
     width: 75%;
     cursor: pointer;
@@ -84,7 +84,7 @@ section h2 {
     margin: 4px; 
 }
 .btn:hover:not([disabled]){
-    background-color: black
+    background-color: lightyellow
 }
 .btn:disabled{
     cursor: no-drop;
@@ -101,5 +101,5 @@ section h2 {
     background-color: green;
 }
 .incorrect{
-    background-color: beige;
+    background-color: rgba(255, 1, 1, 0.71);
 }
