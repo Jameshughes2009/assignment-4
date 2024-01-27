@@ -25,6 +25,15 @@ var questions = [
             {text: "JAVA", correct: true},
             {text: "APIs", correct: false},
         ]
+    },
+    {
+        questions: "What Lanuage creates this functionailty", 
+        answers: [
+            {text: "CSS", correct: false},
+            {text: "HMTL", correct: false},
+            {text: "JAVA", correct: true},
+            {text: "APIs", correct: false},
+        ]
     }
 
 ];
@@ -40,7 +49,16 @@ function startQuiz(){
     currentQuestionInedx = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+    timerCount = 10;
     showQuestion();
+    startTimer();
+}
+function startTimer(){
+    timer = setInterval(function() {
+        if (timerCount>=0){
+            return;
+        }
+    })
 }
 function showQuestion(){
     resetState();
