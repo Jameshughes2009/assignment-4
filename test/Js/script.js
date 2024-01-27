@@ -146,4 +146,6 @@ nextButton.addEventListener("click", ()=>{
 })
 
 startQuiz();
-console.log("Test Changes and commits")
+console.log(startQuiz)
+console.log(selectAnswer)
+console.log(answerButtons)
