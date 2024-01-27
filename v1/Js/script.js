@@ -9,21 +9,21 @@ var questions = [
         ]
     },
     {
-        questions: "How Many Gods has Kratos Defeated", 
+        questions: "How Tall Am I", 
         answers: [
             {text: "11", correct: false},
             {text: "23", correct: false},
             {text: "19", correct: false},
-            {text: "6", correct: true},
+            {text: "6ft 3", correct: true},
         ]
     },
     {
-        questions: "How Many Gods has Kratos Defeated", 
+        questions: "What Lanuage creates this functionailty", 
         answers: [
-            {text: "11", correct: false},
-            {text: "23", correct: true},
-            {text: "19", correct: false},
-            {text: "6", correct: false},
+            {text: "CSS", correct: false},
+            {text: "HMTL", correct: false},
+            {text: "JAVA", correct: true},
+            {text: "APIs", correct: false},
         ]
     }
 
@@ -53,6 +53,10 @@ function showQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
     });
 }
 
@@ -63,6 +67,16 @@ function resetState(){
     }
 }
 
+
+function selectAnswer(e){
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if(isCorrect){
+        selectedBtn.classList.add("correct");
+    }else{
+        selectedBtn.classList.add("incorrect")
+    }
+}
 
 startQuiz();
 console.log("Test for Java File")
