@@ -40,6 +40,7 @@ var questions = [
 var questionsElement = document.getElementById("questions");
 var answerButtons = document.getElementById("answer-buttons");
 var nextButton = document.getElementById("next-button");
+console.log (nextButton)
 
 let currentQuestionInedx = 0;
 let score = 0;
@@ -75,6 +76,7 @@ function showQuestion(){
             button.dataset.correct = answer.correct;
         }
         button.addEventListener("click", selectAnswer);
+        console.log (button)
     });
 }
 
