@@ -83,8 +83,11 @@ section h2 {
     padding: 10px;
     margin: 4px; 
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background-color: black
+}
+.btn:disabled{
+    cursor: no-drop;
 }
 #next-button{
     background-color: pink;
