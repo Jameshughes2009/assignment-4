@@ -15,11 +15,12 @@ body{
 header{
     background-color: rgb(255, 248, 248);
     font-size: 30px;
-    padding-top: 0px;
-    padding: 400px;
+    /* padding-top: 600px; */
+    /* padding: 400px; */
     width: 100%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin: 10px auto 0;
+    /* Note - Marigin in this context seperares ho */
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -84,4 +85,10 @@ section h2 {
 }
 .btn:hover{
     background-color: black
+}
+#next-button{
+    background-color: pink;
+    color: green;
+    font-size: 20px;
+    margin: 20px;
 }
