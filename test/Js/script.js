@@ -1,11 +1,11 @@
 var questions = [
     {
-        questions: "How Many Gods has Kratos Defeated", 
+        questions: "Choose the correct HTML element for the largest heading", 
         answers: [
-            {text: "11", correct: false},
-            {text: "23", correct: true},
-            {text: "19", correct: false},
-            {text: "6", correct: false},
+            {text: "h6", correct: false},
+            {text: "h1", correct: true},
+            {text: "head", correct: false},
+            {text: "heading", correct: false},
         ]
     },
     {
@@ -34,7 +34,16 @@ var questions = [
             {text: "// this is a comment", correct: false},
             {text: "// this is a comment //", correct: false},
         ]
-    }
+    },
+    {
+        questions: " Bonus - How Many Gods has Kratos Defeated", 
+        answers: [
+            {text: "11", correct: false},
+            {text: "23", correct: true},
+            {text: "19", correct: false},
+            {text: "6", correct: false},
+        ]
+    },
 
 ];
 var questionsElement = document.getElementById("questions");
