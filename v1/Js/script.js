@@ -73,6 +73,7 @@ function selectAnswer(e){
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
         selectedBtn.classList.add("correct");
+        score++;
     }else{
         selectedBtn.classList.add("incorrect")
     }
@@ -84,6 +85,36 @@ function selectAnswer(e){
     });
     nextButton.style.display = "block"
 }
+
+
+function showScore(){
+    resetState();
+    questionsElement.innerHTML = 'you sorced ${score} out of ${questions.length}!';
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
+
+
+
+function handleNextButton(){
+    currentQuestionInedx++ //++ increases index by 1
+    if(currentQuestionInedx < questions.length){
+        showQuestion();
+    }else{
+        showScore();
+    }
+
+}
+
+
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionInedx < questions.length){
+        handleNextButton();
+    }else{
+        startQuiz();
+    }
+})
 
 startQuiz();
 console.log("Test for Java File")
