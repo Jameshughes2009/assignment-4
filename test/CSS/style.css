@@ -38,7 +38,7 @@ main{
     cursor: pointer; */
 }
 section {
-    background-color: rgb(18, 33, 177);
+    background-color: rgb(155, 164, 252);
     font-size: 10px;
     /* Add font-size function */
     color: pink;
@@ -51,6 +51,7 @@ section h1{
     /* border-bottom: 30px, rgb(0, 51, 255); */
     padding-bottom: 1px;
     color: red;
+    font-family: Arial,;
     /* Space bettween first statement and second */
 }
 section h2 {
@@ -90,8 +91,8 @@ section h2 {
     cursor: no-drop;
 }
 #next-button{
-    background-color: pink;
-    color: green;
+    background-color: red;
+    color: black;
     font-size: 20px;
     margin: 20px;
     display: none;
