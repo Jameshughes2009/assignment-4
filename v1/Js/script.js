@@ -29,7 +29,7 @@ var questions = [
 
 ];
 var questionsElement = document.getElementById("questions");
-var answerButton = document.getElementById("answer-buttons");
+var answerButtons = document.getElementById("answer-buttons");
 var nextButton = document.getElementById("next-button");
 
 let currentQuestionInedx = 0;
@@ -43,6 +43,7 @@ function startQuiz(){
     showQuestion();
 }
 function showQuestion(){
+    resetState();
     let currentQuestion = questions[currentQuestionInedx];
     let questionsNo = currentQuestionInedx + 1;
     questionsElement.innerHTML = questionsNo + ". " +currentQuestion.questions;
@@ -51,9 +52,17 @@ function showQuestion(){
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
-        answerButton.appendChild(button);
+        answerButtons.appendChild(button);
     });
 }
+
+function resetState(){
+    nextButton.style.display = "none"
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild)
+    }
+}
+
 
 startQuiz();
 console.log("Test for Java File")
