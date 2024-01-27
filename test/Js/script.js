@@ -9,12 +9,12 @@ var questions = [
         ]
     },
     {
-        questions: "How Tall Am I", 
+        questions: "Which operator can be used to compare two values?", 
         answers: [
-            {text: "11", correct: false},
-            {text: "23", correct: false},
-            {text: "19", correct: false},
-            {text: "6ft 3", correct: true},
+            {text: "=", correct: false},
+            {text: "><", correct: false},
+            {text: "<>", correct: false},
+            {text: "==", correct: true},
         ]
     },
     {
@@ -27,12 +27,12 @@ var questions = [
         ]
     },
     {
-        questions: "What Lanuage creates this functionailty", 
+        questions: "How do you insert a comment in a CSS file?", 
         answers: [
-            {text: "CSS", correct: false},
-            {text: "HMTL", correct: false},
-            {text: "JAVA", correct: true},
-            {text: "APIs", correct: false},
+            {text: "/* this is a comment */", correct: true},
+            {text: "' this is a comment", correct: false},
+            {text: "// this is a comment", correct: false},
+            {text: "// this is a comment //", correct: false},
         ]
     }
 
