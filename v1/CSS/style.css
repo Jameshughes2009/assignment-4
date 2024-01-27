@@ -75,8 +75,13 @@ section h2 {
 /* all of this info did not impact the screen!!!!! */
 .btn {
     background-color: blueviolet;
-    color: white;
-    font-size: 5px;
+    color: rgb(99, 0, 0);
+    font-size: 20px;
     width: 75%;
     cursor: pointer;
+    padding: 10px;
+    margin: 4px; 
+}
+.btn:hover{
+    background-color: black
 }
