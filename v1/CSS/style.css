@@ -45,8 +45,8 @@ section {
 section h1{
     font-size: 40px;
     /* Applies to "Question"1 font size */
-    border-bottom: 30px, rgb(0, 0, 0);
-    padding-bottom: 10px;
+    /* border-bottom: 30px, rgb(0, 51, 255); */
+    padding-bottom: 1px;
     color: red;
     /* Space bettween first statement and second */
 }
@@ -71,3 +71,9 @@ section h2 {
     color: brown;
 } */ 
 /* all of this info did not impact the screen!!!!! */
+.btn {
+    background-color: blueviolet;
+    color: white;
+    font-size: 500;
+    width: 75%;
+}
