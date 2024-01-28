@@ -74,7 +74,7 @@ function startTimer(){
         if (timerCount===0){
             return;
         }
-    },3000)
+    },1000)
 }
 function showQuestion(){
     resetState();

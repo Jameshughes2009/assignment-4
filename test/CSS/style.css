@@ -107,6 +107,8 @@ section h2 {
 .timer {
     height: 100px;
     background: black;
+    font-size: larger;
+    display: flex;
 }
 .timer-text {
     padding: 20px;
