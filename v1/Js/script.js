@@ -1,5 +1,6 @@
 
-
+var timer;
+var timerCount;
 
 var questions = [
     {
@@ -43,6 +44,7 @@ var questions = [
 var questionsElement = document.getElementById("questions");
 var answerButtons = document.getElementById("answer-buttons");
 var nextButton = document.getElementById("next-button");
+var timerElement = document.querySelector(".timer-count")
 
 let currentQuestionInedx = 0;
 let score = 0;
@@ -52,16 +54,18 @@ function startQuiz(){
     currentQuestionInedx = 0;
     score = 0;
     nextButton.innerHTML = "Next";
-    timerCount = 10;
+    timerCount = 30;
     showQuestion();
     startTimer();
 }
 function startTimer(){
     timer = setInterval(function() {
-        if (timerCount>=0){
+        timerCount--;
+        timerElement.textContent = timerCount
+        if (timerCount===0){
             return;
         }
-    })
+    },500)
 }
 function showQuestion(){
     resetState();
