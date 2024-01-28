@@ -10,7 +10,7 @@
 
 
 * [Link to Assignment Repository](https://github.com/Jameshughes2009/assignment-4)
-    * "Test" will be the folder that contains the version that I'll submit and the folder "v1" has what I am testing to add functionailty.
+    * "Final" will be the folder that contains the version that I'll submit and the folder "v1" has what I am testing to add functionailty.
 
 * [Link to youtuber](https://www.youtube.com/@GreatStackDev)
     * Also used examples from this Youtuber to help build my Quiz.
