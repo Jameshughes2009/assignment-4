@@ -36,12 +36,14 @@ main{
     /* Padding adds the black outline */
     /* border-radius: 4px;
     cursor: pointer; */
+    display: flex;
 }
 section {
     background-color: rgb(18, 33, 177);
     font-size: 15px;
     /* Add font-size function */
     color: rgb(154, 78, 23);
+    flex: 0 auto;
     /* Text Color */
     
 }
@@ -106,6 +108,7 @@ section h2 {
 .timer {
     height: 100px;
     background: black;
+    color: white;
 }
 .timer-text {
     padding: 20px;
