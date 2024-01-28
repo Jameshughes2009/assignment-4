@@ -72,7 +72,7 @@ function startTimer(){
         timerCount--;
         timerElement.textContent = timerCount
         if (timerCount===0){
-            return;
+            clearInterval(timer);
         }
     },1000)
 }
