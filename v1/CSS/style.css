@@ -111,5 +111,6 @@ section h2 {
     color: white;
 }
 .timer-text {
-    padding: 20px;
+    padding: fill;
+    padding: 60px;
 }
