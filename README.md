@@ -15,5 +15,5 @@
 * [Link to youtuber](https://www.youtube.com/@GreatStackDev)
     * Also used examples from this Youtuber to help build my Quiz.
     
-* ![Screenshot 2024-01-27 150320](https://github.com/Jameshughes2009/assignment-4/blob/main/test/images/Screenshot%202024-01-27%20150320.png?raw=true)
+* ![Screenshot]()
     * Screenshot of my active page
