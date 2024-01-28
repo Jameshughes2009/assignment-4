@@ -155,3 +155,4 @@ startQuiz();
 console.log(startQuiz)
 console.log(selectAnswer)
 console.log(answerButtons)
+console.log(timer)
