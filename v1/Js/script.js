@@ -62,8 +62,8 @@ function startTimer(){
     timer = setInterval(function() {
         timerCount--;
         timerElement.textContent = timerCount
-        if (timerCount===0){
-            return;
+        if (timerCount === 0){
+            clearInterval(timer)
         }
     },1000)
 }
