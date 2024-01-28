@@ -26,7 +26,7 @@ header{
     text-align: center;
 }
 main{
-    background-color: rgb(14, 13, 13);
+    background-color: black;
     width: 90%;
     max-width: 600px;
     margin: 10px auto 0;
@@ -106,7 +106,7 @@ section h2 {
     background-color: beige;
 }
 .timer {
-    height: 100px;
+    height: 0px;
     background: black;
     color: white;
 }
