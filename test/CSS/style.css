@@ -104,3 +104,10 @@ section h2 {
 .incorrect{
     background-color: rgba(255, 1, 1, 0.71);
 }
+.timer {
+    height: 100px;
+    background: black;
+}
+.timer-text {
+    padding: 20px;
+}
