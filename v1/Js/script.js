@@ -1,6 +1,8 @@
 
 var timer;
 var timerCount;
+var startButton = document.querySelector(".start-button") //more testing
+var isWin = false
 
 var questions = [
     {
@@ -45,9 +47,17 @@ var questionsElement = document.getElementById("questions");
 var answerButtons = document.getElementById("answer-buttons");
 var nextButton = document.getElementById("next-button");
 var timerElement = document.querySelector(".timer-count")
+var startButton = document.querySelector(".start-button")
 
 let currentQuestionInedx = 0;
 let score = 0;
+
+function startGame(){
+    isWin = false
+    startButton = true;
+    startTimer
+    startTimer()
+}
 
 
 function startQuiz(){
