@@ -1,3 +1,6 @@
+
+
+
 var questions = [
     {
         questions: "How Many Gods has Kratos Defeated", 

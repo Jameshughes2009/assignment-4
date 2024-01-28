@@ -103,3 +103,10 @@ section h2 {
 .incorrect{
     background-color: beige;
 }
+.timer {
+    height: 100px;
+    background: black;
+}
+.timer-text {
+    padding: 20px;
+}
