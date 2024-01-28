@@ -1,7 +1,7 @@
 # Assignment 4 Coding Quiz Game 
 ## By James Hughes
 ### This Challenge invoved me building a timed coding Quiz with multiple-choice questions. The App runs on a browser and feature dynamically updated HTML and CSS powered by JavaScript code.
- * [Link to Live Page](https://jameshughes2009.github.io/assignment-4/test/)
+ * [Link to Live Page](https://jameshughes2009.github.io/assignment-4/Final/)
 
 * [Link to Live README Page](https://jameshughes2009.github.io/assignment-4/)
 
