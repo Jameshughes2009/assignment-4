@@ -54,6 +54,7 @@ var questionsElement = document.getElementById("questions");
 var answerButtons = document.getElementById("answer-buttons");
 var nextButton = document.getElementById("next-button");
 var timerElement = document.querySelector(".timer-count")
+var startButton = document.querySelector(".start-button")
 console.log (nextButton)
 
 let currentQuestionInedx = 0;
@@ -126,7 +127,7 @@ function selectAnswer(e){
 function showScore(){
     resetState();
     var endQuizArea=document.getElementById("scorecard")
-    
+
     questionsElement.innerHTML = `You scored ${score} out of ${questions.length}!`
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
@@ -155,7 +156,6 @@ nextButton.addEventListener("click", ()=>{
     }
 })
 
-startQuiz();
 console.log(startQuiz)
 console.log(selectAnswer)
 console.log(answerButtons)
