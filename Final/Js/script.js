@@ -1,5 +1,6 @@
 var timer;
 var timerCount;
+var startButton = document.querySelector(".start-button")
 
 var questions = [
     {
@@ -124,9 +125,12 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
+    var endQuizArea=document.getElementById("scorecard")
+    
     questionsElement.innerHTML = `You scored ${score} out of ${questions.length}!`
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
+    endQuizArea.classList.remove("hide")
 }
 
 
@@ -156,3 +160,4 @@ console.log(startQuiz)
 console.log(selectAnswer)
 console.log(answerButtons)
 console.log(timer)
+startButton.addEventListener("click", startQuiz)

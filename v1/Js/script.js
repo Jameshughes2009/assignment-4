@@ -124,9 +124,12 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
+    var endQuizArea=document.getElementById("scorecard")
+
     questionsElement.innerHTML = `You scored ${score} out of ${questions.length}!`
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
+    endQuizArea.classList.remove("hide")
 }
 
 
@@ -151,5 +154,5 @@ nextButton.addEventListener("click", ()=>{
     }
 })
 
-startQuiz();
+startButton.addEventListener("click", startQuiz)
 console.log("Test for Java File")
